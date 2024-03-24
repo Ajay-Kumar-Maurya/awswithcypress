@@ -1,0 +1,26 @@
+{
+  "name": "awswithcypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:verify": "cypress verify",
+    "cy:info": "cypress info",
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ajay-Kumar-Maurya/awswithcypress.git"
+  },
+  "author": "Ajay Kumar Maurya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ajay-Kumar-Maurya/awswithcypress/issues"
+  },
+  "homepage": "https://github.com/Ajay-Kumar-Maurya/awswithcypress#readme",
+  "dependencies": {
+    "cypress": "^13.7.0"
+  }
+}
