@@ -1,7 +1,11 @@
 name: Cypress tests youtube record
-on: [push]
-  schedule :
-    - cron : '15 10 * * *'
+
+on:
+  push:
+    branches: [master]
+  schedule:
+    - cron: "26 10 * * *"
+
 jobs:
   cypress-run:
     runs-on: ubuntu-latest
